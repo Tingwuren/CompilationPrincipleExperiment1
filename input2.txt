@@ -1,0 +1,31 @@
+// 检测程序错误检测及恢复能力
+// 检测文件格式输入
+#include  你好
+#include "hello.h"
+#include <stdio.h>
+
+// 检测标志符输入
+1a
+a1
+_b2.
+
+// 检测数字输入
+0
+1.m
+2.
+3e
+3e-5
+3.14E+10
+5.20E
+
+// 检测输入字符
+char c = '';
+char d = '
+';
+char e = 'o';
+char f = '\m';
+char g = '\t';
+
+// 检测输入字符串
+char *s = "你好";
+char *s2 = "hello;

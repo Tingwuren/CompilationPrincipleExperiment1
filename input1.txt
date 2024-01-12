@@ -1,0 +1,18 @@
+// 测试词法分析程序的基本功能，即可以识别各种记号并正确输出，可以跳过注释。
+# include <stdio.h> // 识别关键字、文件
+#include "main.h"
+#define MAX 100
+/* 这是一个多行注释
+这是第二行
+这是第三行
+*/
+int main() { // 识别标识符
+	int a = 110; // 识别整数
+	float b = 13.4; // 识别小数
+	char c = 'i'; // 识别字符
+	char *d = "helloworld!"; // 识别字符串
+
+	if (a != b) { // 识别运算符
+		return 0;
+	}
+}
